@@ -10,7 +10,7 @@
                 <a href="index.html" class="border-b-2 border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium">
                     Home
                 </a>
-                <a href="photos.html" class="text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium">
+                <a href="?photos" class="text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium">
                     Photos
                 </a>
                 <a href="photographers.html" class="text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium">
