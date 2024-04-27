@@ -3,11 +3,8 @@
 
 // ROUTE DES PHOTOGRAPHES
 // PATTERN: /?authors
-// CTRL: auhorsController
-// ACTION: indexAction
 if (isset($_GET['authors'])) :
-    include_once '../app/controllers/authorsController.php';
-    \App\Controllers\AuthorsController\indexAction($connexion);
+    include_once '../app/routers/authors.php';
 
 // ROUTE DES PHOTOS
 // PATTERN: /?photos

@@ -11,7 +11,7 @@
                 <p class="text-sm text-gray-600">
                     Biography...
                 </p>
-                <a href="photographer.html" class="mt-4 inline-block bg-indigo-500 text-white py-2 px-4 rounded-lg hover:bg-indigo-700">
+                <a href="?authors=show&id=<?php echo $author['id']; ?>" class="mt-4 inline-block bg-indigo-500 text-white py-2 px-4 rounded-lg hover:bg-indigo-700">
                     Voir ses photos
                 </a>
             </div>
