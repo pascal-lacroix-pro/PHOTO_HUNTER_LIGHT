@@ -1,6 +1,10 @@
 <?php
 // PARAMS
 
+// Initialisation des zones dynamiques
+$title = '';
+$content = '';
+
 // Paramètres de connexion à la DB
 define('DB_HOST', 'localhost:8889');
 define('DB_NAME', 'photo_hunter');
