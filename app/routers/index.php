@@ -11,11 +11,8 @@ if (isset($_GET['authors'])) :
 
 // ROUTE DES PHOTOS
 // PATTERN: /?photos
-// CTRL: photosController
-// ACTION: indexAction
 elseif (isset($_GET['photos'])) :
-    include_once '../app/controllers/photosController.php';
-    \App\Controllers\PhotosController\indexAction($connexion);
+    include_once '../app/routers/photos.php';
 
 // ROUTE PAR DÉFAUT
 // PATTERN: /
