@@ -18,7 +18,7 @@
                     </header>
 
                     <p class="text-base text-gray-600">
-                        <?php echo $photo['resume']; ?>
+                        <?php echo \Core\Helpers\truncate($photo['resume']); ?>
                     </p>
                     <a href="photo.html" class="mt-4 inline-block bg-indigo-500 text-white py-2 px-4 rounded-lg hover:bg-indigo-700">
                         En savoir plus
